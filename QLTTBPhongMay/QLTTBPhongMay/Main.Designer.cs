@@ -33,14 +33,14 @@
             this.quảnLýHệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.danhMụcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dangnhapbtn = new System.Windows.Forms.Button();
-            this.dangkybtn = new System.Windows.Forms.Button();
-            this.hienbtn = new System.Windows.Forms.Button();
-            this.usernametxt = new System.Windows.Forms.TextBox();
-            this.passwordtxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.passwordtxt = new System.Windows.Forms.TextBox();
+            this.usernametxt = new System.Windows.Forms.TextBox();
+            this.hienbtn = new System.Windows.Forms.Button();
+            this.dangkybtn = new System.Windows.Forms.Button();
+            this.dangnhapbtn = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -86,15 +86,57 @@
             this.panel1.Size = new System.Drawing.Size(800, 415);
             this.panel1.TabIndex = 1;
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Location = new System.Drawing.Point(205, 109);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(163, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(478, 32);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "CHÀO MỪNG ĐẾN VỚI HỆ THỐNG";
+            // 
+            // passwordtxt
+            // 
+            this.passwordtxt.Location = new System.Drawing.Point(315, 149);
+            this.passwordtxt.Name = "passwordtxt";
+            this.passwordtxt.Size = new System.Drawing.Size(157, 22);
+            this.passwordtxt.TabIndex = 6;
+            // 
+            // usernametxt
+            // 
+            this.usernametxt.Location = new System.Drawing.Point(315, 106);
+            this.usernametxt.Name = "usernametxt";
+            this.usernametxt.Size = new System.Drawing.Size(157, 22);
+            this.usernametxt.TabIndex = 5;
+            // 
+            // hienbtn
+            // 
+            this.hienbtn.Location = new System.Drawing.Point(532, 149);
+            this.hienbtn.Name = "hienbtn";
+            this.hienbtn.Size = new System.Drawing.Size(109, 28);
+            this.hienbtn.TabIndex = 4;
+            this.hienbtn.Text = "Hiện";
+            this.hienbtn.UseVisualStyleBackColor = true;
+            // 
+            // dangkybtn
+            // 
+            this.dangkybtn.Location = new System.Drawing.Point(445, 221);
+            this.dangkybtn.Name = "dangkybtn";
+            this.dangkybtn.Size = new System.Drawing.Size(109, 28);
+            this.dangkybtn.TabIndex = 3;
+            this.dangkybtn.Text = "Đăng Ký";
+            this.dangkybtn.UseVisualStyleBackColor = true;
+            // 
+            // dangnhapbtn
+            // 
+            this.dangnhapbtn.Location = new System.Drawing.Point(282, 221);
+            this.dangnhapbtn.Name = "dangnhapbtn";
+            this.dangnhapbtn.Size = new System.Drawing.Size(109, 28);
+            this.dangnhapbtn.TabIndex = 2;
+            this.dangnhapbtn.Text = "Đăng Nhập";
+            this.dangnhapbtn.UseVisualStyleBackColor = true;
+            this.dangnhapbtn.Click += new System.EventHandler(this.dangnhapbtn_Click);
             // 
             // label2
             // 
@@ -106,56 +148,15 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
             // 
-            // dangnhapbtn
+            // label1
             // 
-            this.dangnhapbtn.Location = new System.Drawing.Point(282, 221);
-            this.dangnhapbtn.Name = "dangnhapbtn";
-            this.dangnhapbtn.Size = new System.Drawing.Size(109, 28);
-            this.dangnhapbtn.TabIndex = 2;
-            this.dangnhapbtn.Text = "Đăng Nhập";
-            this.dangnhapbtn.UseVisualStyleBackColor = true;
-            // 
-            // dangkybtn
-            // 
-            this.dangkybtn.Location = new System.Drawing.Point(445, 221);
-            this.dangkybtn.Name = "dangkybtn";
-            this.dangkybtn.Size = new System.Drawing.Size(109, 28);
-            this.dangkybtn.TabIndex = 3;
-            this.dangkybtn.Text = "Đăng Ký";
-            this.dangkybtn.UseVisualStyleBackColor = true;
-            // 
-            // hienbtn
-            // 
-            this.hienbtn.Location = new System.Drawing.Point(532, 149);
-            this.hienbtn.Name = "hienbtn";
-            this.hienbtn.Size = new System.Drawing.Size(109, 28);
-            this.hienbtn.TabIndex = 4;
-            this.hienbtn.Text = "Hiện";
-            this.hienbtn.UseVisualStyleBackColor = true;
-            // 
-            // usernametxt
-            // 
-            this.usernametxt.Location = new System.Drawing.Point(315, 106);
-            this.usernametxt.Name = "usernametxt";
-            this.usernametxt.Size = new System.Drawing.Size(157, 22);
-            this.usernametxt.TabIndex = 5;
-            // 
-            // passwordtxt
-            // 
-            this.passwordtxt.Location = new System.Drawing.Point(315, 149);
-            this.passwordtxt.Name = "passwordtxt";
-            this.passwordtxt.Size = new System.Drawing.Size(157, 22);
-            this.passwordtxt.TabIndex = 6;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(163, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(478, 32);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "CHÀO MỪNG ĐẾN VỚI HỆ THỐNG";
+            this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Location = new System.Drawing.Point(205, 109);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "UserName";
             // 
             // Main
             // 

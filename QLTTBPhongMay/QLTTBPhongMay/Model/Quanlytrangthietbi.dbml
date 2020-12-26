@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QUANLYTRANGTHIETBIPHONGMAY" Class="QuanlytrangthietbiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=desktop-fpg7rrj\sqlexpress;Initial Catalog=QUANLYTRANGTHIETBIPHONGMAY;Integrated Security=True" SettingsObjectName="QLTTBPhongMay.Properties.Settings" SettingsPropertyName="QUANLYTRANGTHIETBIPHONGMAYConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BAOQUANTHIETBI" Member="BAOQUANTHIETBIs">
+    <Type Name="BAOQUANTHIETBI">
+      <Column Name="idbaoquan" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="donvitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thongsokythuat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrangtruocbaoquan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrangsaubaoquan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="huongkhacphuc" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoibaoquan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaybaoquan" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhanbaoquan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_BAOQUANTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_BAOQUANTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIETBOSUNGTHIETBI" Member="CHITIETBOSUNGTHIETBIs">
+    <Type Name="CHITIETBOSUNGTHIETBI">
+      <Column Name="idbosung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mota" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="donvitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thongsokythuat" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nhacungcap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thoigianbaohanh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_CHITIETBOSUNGTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_CHITIETBOSUNGTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BOSUNGTHIETBI" Member="BOSUNGTHIETBIs">
+    <Type Name="BOSUNGTHIETBI">
+      <Column Name="idbosung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nhanvienbosung" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tongtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngaybosung" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhanbosung" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_BOSUNGTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIETSUACHUATHIETBI" Member="CHITIETSUACHUATHIETBIs">
+    <Type Name="CHITIETSUACHUATHIETBI">
+      <Column Name="idsuachua" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mota" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="chitiethonghoc" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="solansuachua" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_CHITIETSUACHUATHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_CHITIETSUACHUATHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CHITIETTHANHLYTHIETBI" Member="CHITIETTHANHLYTHIETBIs">
+    <Type Name="CHITIETTHANHLYTHIETBI">
+      <Column Name="idthanhly" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tinhtrangthietbi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="mota" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="noithanhly" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaythanhly" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_CHITIETTHANHLYTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_CHITIETTHANHLYTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DIEUCHUYENTHIETBI" Member="DIEUCHUYENTHIETBIs">
+    <Type Name="DIEUCHUYENTHIETBI">
+      <Column Name="iddieuchuyen" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soluong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrangthietbi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoidieuchuyen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaydieuchuyen" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhandieuchuyen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="maphongmay" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_DIEUCHUYENTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="PHONGMAY_DIEUCHUYENTHIETBI" Member="PHONGMAY" ThisKey="mathietbi" OtherKey="maphongmay" Type="PHONGMAY" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_DIEUCHUYENTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KHAITHACTHIETBI" Member="KHAITHACTHIETBIs">
+    <Type Name="KHAITHACTHIETBI">
+      <Column Name="idkhaithac" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="donvitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thoigianbaohanh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="thoigianbatdausudung" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="thoigianketthucdukien" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="thoigianketthucsudung" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tongsotiet" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="danhgiahaomon" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="danhgia" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoilapkehoach" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaylapkehoach" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhankehoach" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_KHAITHACTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_KHAITHACTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LOAITHIETBI" Member="LOAITHIETBIs">
+    <Type Name="LOAITHIETBI">
+      <Column Name="maloaithietbi" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenloaithietbi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="LOAITHIETBI_TRANGTHIETBI" Member="TRANGTHIETBIs" ThisKey="maloaithietbi" OtherKey="maloaithietbi" Type="TRANGTHIETBI" />
+      <Association Name="NGUOIDUNG_LOAITHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NGUOIDUNG" Member="NGUOIDUNGs">
+    <Type Name="NGUOIDUNG">
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tennguoidung" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tendangnhap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="matkhau" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="sodienthoai" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="chucvu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaytao" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoitao" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="quyenhan" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_BAOQUANTHIETBI" Member="BAOQUANTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="BAOQUANTHIETBI" />
+      <Association Name="NGUOIDUNG_CHITIETBOSUNGTHIETBI" Member="CHITIETBOSUNGTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="CHITIETBOSUNGTHIETBI" />
+      <Association Name="NGUOIDUNG_BOSUNGTHIETBI" Member="BOSUNGTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="BOSUNGTHIETBI" />
+      <Association Name="NGUOIDUNG_CHITIETSUACHUATHIETBI" Member="CHITIETSUACHUATHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="CHITIETSUACHUATHIETBI" />
+      <Association Name="NGUOIDUNG_CHITIETTHANHLYTHIETBI" Member="CHITIETTHANHLYTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="CHITIETTHANHLYTHIETBI" />
+      <Association Name="NGUOIDUNG_DIEUCHUYENTHIETBI" Member="DIEUCHUYENTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="DIEUCHUYENTHIETBI" />
+      <Association Name="NGUOIDUNG_KHAITHACTHIETBI" Member="KHAITHACTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="KHAITHACTHIETBI" />
+      <Association Name="NGUOIDUNG_LOAITHIETBI" Member="LOAITHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="LOAITHIETBI" />
+      <Association Name="NGUOIDUNG_PHONGMAY" Member="PHONGMAYs" ThisKey="manguoidung" OtherKey="manguoidung" Type="PHONGMAY" />
+      <Association Name="NGUOIDUNG_SUACHUATHIETBI" Member="SUACHUATHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="SUACHUATHIETBI" />
+      <Association Name="NGUOIDUNG_THANHLYTHIETBI" Member="THANHLYTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="THANHLYTHIETBI" />
+      <Association Name="NGUOIDUNG_TINHTRANGTHIETBI" Member="TINHTRANGTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="TINHTRANGTHIETBI" />
+      <Association Name="NGUOIDUNG_TRANGTHIETBI" Member="TRANGTHIETBIs" ThisKey="manguoidung" OtherKey="manguoidung" Type="TRANGTHIETBI" />
+      <Association Name="User_NGUOIDUNG" Member="User" ThisKey="quyenhan" OtherKey="id" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHONGMAY" Member="PHONGMAYs">
+    <Type Name="PHONGMAY">
+      <Column Name="maphongmay" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenphogmay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="soluongbienche" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="soluongthucte" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="PHONGMAY_DIEUCHUYENTHIETBI" Member="DIEUCHUYENTHIETBIs" ThisKey="maphongmay" OtherKey="mathietbi" Type="DIEUCHUYENTHIETBI" />
+      <Association Name="PHONGMAY_TRANGTHIETBI" Member="TRANGTHIETBIs" ThisKey="maphongmay" OtherKey="maphongmay" Type="TRANGTHIETBI" />
+      <Association Name="NGUOIDUNG_PHONGMAY" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUACHUATHIETBI" Member="SUACHUATHIETBIs">
+    <Type Name="SUACHUATHIETBI">
+      <Column Name="idsuachua" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nguoisuachua" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaysuachua" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tongtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguoitonghop" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaytonghop" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhansuachua" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_SUACHUATHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.THANHLYTHIETBI" Member="THANHLYTHIETBIs">
+    <Type Name="THANHLYTHIETBI">
+      <Column Name="idthanhly" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nhanvienthanhly" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tongtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="nguoixacnhanthanhly" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_THANHLYTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TINHTRANGTHIETBI" Member="TINHTRANGTHIETBIs">
+    <Type Name="TINHTRANGTHIETBI">
+      <Column Name="idtinhtrang" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tentinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoidanhgia" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaydanhgia" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="nguoixacnhantinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="NGUOIDUNG_TINHTRANGTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="TRANGTHIETBI_TINHTRANGTHIETBI" Member="TRANGTHIETBI" ThisKey="mathietbi" OtherKey="mathietbi" Type="TRANGTHIETBI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TRANGTHIETBI" Member="TRANGTHIETBIs">
+    <Type Name="TRANGTHIETBI">
+      <Column Name="mathietbi" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenthietbi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="donvitinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dongia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thongsokythuat" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="nhacungcap" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="thoigianbatdausudung" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="thoigianmuasam" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tinhtrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thoigianbaohanh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ngaycapnhatthongtin" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="maphongmay" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="maloaithietbi" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="manguoidung" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="TRANGTHIETBI_BAOQUANTHIETBI" Member="BAOQUANTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="BAOQUANTHIETBI" />
+      <Association Name="TRANGTHIETBI_CHITIETBOSUNGTHIETBI" Member="CHITIETBOSUNGTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="CHITIETBOSUNGTHIETBI" />
+      <Association Name="TRANGTHIETBI_CHITIETSUACHUATHIETBI" Member="CHITIETSUACHUATHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="CHITIETSUACHUATHIETBI" />
+      <Association Name="TRANGTHIETBI_CHITIETTHANHLYTHIETBI" Member="CHITIETTHANHLYTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="CHITIETTHANHLYTHIETBI" />
+      <Association Name="TRANGTHIETBI_DIEUCHUYENTHIETBI" Member="DIEUCHUYENTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="DIEUCHUYENTHIETBI" />
+      <Association Name="TRANGTHIETBI_KHAITHACTHIETBI" Member="KHAITHACTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="KHAITHACTHIETBI" />
+      <Association Name="TRANGTHIETBI_TINHTRANGTHIETBI" Member="TINHTRANGTHIETBIs" ThisKey="mathietbi" OtherKey="mathietbi" Type="TINHTRANGTHIETBI" />
+      <Association Name="LOAITHIETBI_TRANGTHIETBI" Member="LOAITHIETBI" ThisKey="maloaithietbi" OtherKey="maloaithietbi" Type="LOAITHIETBI" IsForeignKey="true" />
+      <Association Name="NGUOIDUNG_TRANGTHIETBI" Member="NGUOIDUNG" ThisKey="manguoidung" OtherKey="manguoidung" Type="NGUOIDUNG" IsForeignKey="true" />
+      <Association Name="PHONGMAY_TRANGTHIETBI" Member="PHONGMAY" ThisKey="maphongmay" OtherKey="maphongmay" Type="PHONGMAY" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="User_NGUOIDUNG" Member="NGUOIDUNGs" ThisKey="id" OtherKey="quyenhan" Type="NGUOIDUNG" />
+    </Type>
+  </Table>
+</Database>

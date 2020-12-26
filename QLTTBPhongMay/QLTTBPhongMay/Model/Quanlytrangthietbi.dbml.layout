@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.5, 14.125" name="Quanlytrangthietbi">
+  <DataContextMoniker Name="/QuanlytrangthietbiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7fc5e6d6-a804-4529-a4a0-31643a9c8bd1" absoluteBounds="2.125, 1.25, 2, 3.1170068359375">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/BAOQUANTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e03b195b-cdd6-4c03-a4a7-62734bb5ab39" absoluteBounds="2.1399999999999997, 1.71, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d1ebc8ab-010c-47b8-83a9-4143b3496b10" absoluteBounds="7, 1.25, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/CHITIETBOSUNGTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cc577bb3-7a6e-4da8-abd8-a2cd202b706e" absoluteBounds="7.015, 1.71, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="054ee6c1-49bb-4e55-8528-f6a5c9e9b5aa" absoluteBounds="4.375, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/BOSUNGTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="52e4bbd7-c401-41d6-807b-c5ffcda0aa22" absoluteBounds="4.39, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2a5a902-b5bd-4c10-9f38-28a5be2cff37" absoluteBounds="1, 11.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/CHITIETSUACHUATHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="61c735b1-0eba-4266-90ac-f83aa1e278e3" absoluteBounds="1.0149999999999997, 11.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="18caa727-f8f4-4077-a898-0a2b92649b98" absoluteBounds="4.625, 11.375, 2, 2.5401025390625">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/CHITIETTHANHLYTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5bc79e1-bc18-423c-9b57-cc1034374c02" absoluteBounds="4.64, 11.835, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4dd561ce-a23a-42fb-88e8-318737ec9c1b" absoluteBounds="7.25, 4.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/DIEUCHUYENTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1563be68-c921-40d4-9527-87f427f7426c" absoluteBounds="7.265, 4.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d751f018-8681-4670-b33a-07af5b0f3b65" absoluteBounds="9.625, 2.25, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/KHAITHACTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="680ded60-6b5e-474b-8ccc-b86163e27128" absoluteBounds="9.64, 2.71, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a41b1de-4e0a-4746-b9e8-c413fe0a8389" absoluteBounds="5.125, 5.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/LOAITHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bde7c895-a988-4ca5-a62a-b0640a73f3e4" absoluteBounds="5.14, 5.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" absoluteBounds="0.5, 4.875, 2, 3.1170068359375">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="39664da0-e3c1-427e-8f30-db653f8890cd" absoluteBounds="0.51499999999999968, 5.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.3124995 : 4.875); (1.3124995 : 2.80850341796875); (1.54166729166667 : 2.80850341796875 : JumpStart); (1.70833395833333 : 2.80850341796875 : JumpEnd); (2.125 : 2.80850341796875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_BAOQUANTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="7fc5e6d6-a804-4529-a4a0-31643a9c8bd1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 6.43350341796875); (3.36979291666667 : 6.43350341796875 : JumpStart); (3.53645958333333 : 6.43350341796875 : JumpEnd); (4.54166666666667 : 6.43350341796875 : JumpStart); (4.70833333333333 : 6.43350341796875 : JumpEnd); (4.76041666666667 : 6.43350341796875 : JumpStart); (4.92708333333333 : 6.43350341796875 : JumpEnd); (5.0625 : 6.43350341796875); (5.0625 : 4.3125); (8.0937495 : 4.3125); (8.0937495 : 4.17470540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_CHITIETBOSUNGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="d1ebc8ab-010c-47b8-83a9-4143b3496b10" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.87499725 : 4.875); (0.87499725 : 0.90625); (1.54166729166667 : 0.906249999999999 : JumpStart); (1.70833395833333 : 0.90625 : JumpEnd); (4.375 : 0.90625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_BOSUNGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="054ee6c1-49bb-4e55-8528-f6a5c9e9b5aa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 7.24400762695313); (2.7812525 : 7.24400762695313); (2.7812525 : 11.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_CHITIETSUACHUATHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="c2a5a902-b5bd-4c10-9f38-28a5be2cff37" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 5.03125); (3.36979291666667 : 5.03125 : JumpStart); (3.53645958333333 : 5.03125 : JumpEnd); (4.84375 : 5.03125); (4.84375 : 11.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_CHITIETTHANHLYTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="18caa727-f8f4-4077-a898-0a2b92649b98" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 7.06174967447917); (3.36979291666667 : 7.06174967447917 : JumpStart); (3.53645958333333 : 7.06174967447917 : JumpEnd); (4.54166666666667 : 7.06174967447917 : JumpStart); (4.70833333333333 : 7.06174967447917 : JumpEnd); (4.76041666666667 : 7.06174967447917 : JumpStart); (4.92708333333333 : 7.06174967447917 : JumpEnd); (7.25 : 7.06174967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_DIEUCHUYENTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="4dd561ce-a23a-42fb-88e8-318737ec9c1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.93750175 : 4.875); (1.93750175 : 4.4295068359375); (4.97916666666667 : 4.4295068359375 : JumpStart); (5.14583333333333 : 4.4295068359375 : JumpEnd); (7.1875 : 4.4295068359375); (7.1875 : 4.3125); (9.53125 : 4.3125); (9.53125 : 4.19310628255208); (9.625 : 4.19310628255208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_KHAITHACTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="d751f018-8681-4670-b33a-07af5b0f3b65" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 5.77925170898438); (3.36979291666667 : 5.77925170898437 : JumpStart); (3.53645958333333 : 5.77925170898438 : JumpEnd); (4.54166666666667 : 5.77925170898437 : JumpStart); (4.70833333333333 : 5.77925170898438 : JumpEnd); (4.76041666666667 : 5.77925170898437 : JumpStart); (4.92708333333333 : 5.77925170898438 : JumpEnd); (5.125 : 5.77925170898438)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_LOAITHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="5a41b1de-4e0a-4746-b9e8-c413fe0a8389" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4f99c856-14d8-47f7-927b-790bcb7e3d68" absoluteBounds="12, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/PHONGMAY" />
+      <nestedChildShapes>
+        <elementListCompartment Id="71d06715-30b7-4717-b195-4c31b7058a95" absoluteBounds="12.015, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(12.09375 : 2.4631982421875); (12.09375 : 6.68674967447917); (11.9583333333333 : 6.68674967447917 : JumpStart); (11.7916666666667 : 6.68674967447917 : JumpEnd); (10.1145833333333 : 6.68674967447917 : JumpStart); (9.94791666666667 : 6.68674967447917 : JumpEnd); (9.25 : 6.68674967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/PHONGMAY/PHONGMAY_DIEUCHUYENTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="4f99c856-14d8-47f7-927b-790bcb7e3d68" />
+        <classShapeMoniker Id="4dd561ce-a23a-42fb-88e8-318737ec9c1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.625000625 : 4.875); (1.625000625 : 0.53125); (12 : 0.53125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_PHONGMAY" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="4f99c856-14d8-47f7-927b-790bcb7e3d68" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b785d6e8-f914-46bb-bbad-ccd598b23da9" absoluteBounds="0.5, 8.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/SUACHUATHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d5dff6d-f32a-43c8-b9a3-9a3c30faf10c" absoluteBounds="0.51499999999999968, 8.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 7.9920068359375); (1.5 : 8.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_SUACHUATHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="b785d6e8-f914-46bb-bbad-ccd598b23da9" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="70291d43-ca32-4680-9984-28963b2cdff5" absoluteBounds="10.625, 11.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/THANHLYTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2a250aa5-4b40-4f81-941f-34756ccf5c64" absoluteBounds="10.64, 11.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 7.64925923144531); (2.69791916666667 : 7.64925923144531 : JumpStart); (2.86458583333333 : 7.64925923144531 : JumpEnd); (3.36979291666667 : 7.64925923144531 : JumpStart); (3.53645958333333 : 7.64925923144531 : JumpEnd); (4.54166666666667 : 7.64925923144531 : JumpStart); (4.70833333333333 : 7.64925923144531 : JumpEnd); (4.76041666666667 : 7.64925923144531 : JumpStart); (4.92708333333333 : 7.64925923144531 : JumpEnd); (5.125 : 7.64925923144531); (5.125 : 10.8766097005208); (6.22916666666667 : 10.8766097005208 : JumpStart); (6.39583333333333 : 10.8766097005208 : JumpEnd); (7.26041666666667 : 10.8766097005208 : JumpStart); (7.42708333333333 : 10.8766097005208 : JumpEnd); (10.9791671666667 : 10.8766097005208 : JumpStart); (11.1458338333333 : 10.8766097005208 : JumpEnd); (11.625 : 10.8766097005208); (11.625 : 11.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_THANHLYTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="70291d43-ca32-4680-9984-28963b2cdff5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="371de1c9-c63e-4f06-b110-4b76e95d0038" absoluteBounds="10.5, 7.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/TINHTRANGTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fffa6d7-5c8c-41b8-ac74-883a8064c40d" absoluteBounds="10.515, 7.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 5.40525085449219); (3.36979291666667 : 5.40525085449219 : JumpStart); (3.53645958333333 : 5.40525085449219 : JumpEnd); (4.625 : 5.40525085449219); (4.625 : 11.0016097005208); (4.76041666666667 : 11.0016097005208 : JumpStart); (4.92708333333333 : 11.0016097005208 : JumpEnd); (6.22916666666667 : 11.0016097005208 : JumpStart); (6.39583333333333 : 11.0016097005208 : JumpEnd); (7.26041666666667 : 11.0016097005208 : JumpStart); (7.42708333333333 : 11.0016097005208 : JumpEnd); (11.0625005 : 11.0016097005208); (11.0625005 : 9.72280110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_TINHTRANGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="371de1c9-c63e-4f06-b110-4b76e95d0038" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" absoluteBounds="6, 7.125, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7c31aaa3-bfe3-4b57-880c-03e38a06b968" absoluteBounds="6.0150000000000006, 7.5850000000000009, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6 : 8.24600341796875); (5.20833333333333 : 8.24600341796875 : JumpStart); (5.04166666666667 : 8.24600341796875 : JumpEnd); (4.92708333333333 : 8.24600341796875 : JumpStart); (4.76041666666667 : 8.24600341796875 : JumpEnd); (4.70833333333333 : 8.24600341796875 : JumpStart); (4.54166666666667 : 8.24600341796875 : JumpEnd); (3.45312625 : 8.24600341796875); (3.45312625 : 4.3670068359375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_BAOQUANTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="7fc5e6d6-a804-4529-a4a0-31643a9c8bd1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.617188 : 7.125); (6.617188 : 6.89109537760417); (7.1875 : 6.89109537760417); (7.1875 : 4.23720540364583); (6.9375 : 4.23720540364583); (6.9375 : 2.71235270182292); (7 : 2.71235270182292)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_CHITIETBOSUNGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="d1ebc8ab-010c-47b8-83a9-4143b3496b10" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.34375 : 10.6266097005208); (7.34375 : 11.28125); (6.39583333333333 : 11.28125 : JumpStart); (6.22916666666667 : 11.28125 : JumpEnd); (4.92708333333333 : 11.28125 : JumpStart); (4.76041666666667 : 11.28125 : JumpEnd); (3 : 11.28125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_CHITIETSUACHUATHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="c2a5a902-b5bd-4c10-9f38-28a5be2cff37" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.3125 : 10.6266097005208); (6.3125 : 11.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_CHITIETTHANHLYTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="18caa727-f8f4-4077-a898-0a2b92649b98" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.625 : 7.125); (7.625 : 7.10740397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_DIEUCHUYENTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="4dd561ce-a23a-42fb-88e8-318737ec9c1b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 10.2059554036458); (10.03125 : 10.2059554036458); (10.03125 : 6.13621256510417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_KHAITHACTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="d751f018-8681-4670-b33a-07af5b0f3b65" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8 : 7.89945027669271); (9.94791666666667 : 7.89945027669271 : JumpStart); (10.1145833333333 : 7.89945027669271 : JumpEnd); (10.1666666666667 : 7.89945027669271 : JumpStart); (10.3333333333333 : 7.89945027669271 : JumpEnd); (10.5 : 7.89945027669271)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/TRANGTHIETBI/TRANGTHIETBI_TINHTRANGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+        <classShapeMoniker Id="371de1c9-c63e-4f06-b110-4b76e95d0038" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.246094 : 6.82859537760417); (6.246094 : 7.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/LOAITHIETBI/LOAITHIETBI_TRANGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="5a41b1de-4e0a-4746-b9e8-c413fe0a8389" />
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 7.88313303369141); (2.69791916666667 : 7.88313303369141 : JumpStart); (2.86458583333333 : 7.88313303369141 : JumpEnd); (3.36979291666667 : 7.88313303369141 : JumpStart); (3.53645958333333 : 7.88313303369141 : JumpEnd); (4.54166666666667 : 7.88313303369141 : JumpStart); (4.70833333333333 : 7.88313303369141 : JumpEnd); (4.76041666666667 : 7.88313303369141 : JumpStart); (4.92708333333333 : 7.88313303369141 : JumpEnd); (5.04166666666667 : 7.88313303369141 : JumpStart); (5.20833333333333 : 7.88313303369141 : JumpEnd); (6 : 7.88313303369141)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/NGUOIDUNG/NGUOIDUNG_TRANGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(13.078127 : 2.4631982421875); (13.078127 : 4.375); (12.1770833333333 : 4.375 : JumpStart); (12.0104166666667 : 4.375 : JumpEnd); (11.875 : 4.375); (11.875 : 7.25); (10.25 : 7.25); (10.25 : 9.05270284016927); (10.1145833333333 : 9.05270284016927 : JumpStart); (9.94791666666667 : 9.05270284016927 : JumpEnd); (8 : 9.05270284016927)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/PHONGMAY/PHONGMAY_TRANGTHIETBI" />
+      <nodes>
+        <classShapeMoniker Id="4f99c856-14d8-47f7-927b-790bcb7e3d68" />
+        <classShapeMoniker Id="d7bc1b30-b106-450f-be52-7ac08ba7efca" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="609ce778-02cb-487d-835d-3aed1f746553" absoluteBounds="12.25, 4.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuanlytrangthietbiDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1df47f1-6b12-40bf-ae54-d2f827bec9c8" absoluteBounds="12.265, 5.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QuanlytrangthietbiDataContext/User/User_NGUOIDUNG" />
+      <nodes>
+        <classShapeMoniker Id="609ce778-02cb-487d-835d-3aed1f746553" />
+        <classShapeMoniker Id="d03f9dd2-05b6-42d2-a9ad-9572c83de108" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

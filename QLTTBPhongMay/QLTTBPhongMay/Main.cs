@@ -21,5 +21,10 @@ namespace QLTTBPhongMay
         {
 
         }
+
+        private void dangnhapbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
