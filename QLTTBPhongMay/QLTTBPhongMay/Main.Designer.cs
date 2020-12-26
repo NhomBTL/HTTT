@@ -35,11 +35,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.dangnhapbtn = new System.Windows.Forms.Button();
+            this.dangkybtn = new System.Windows.Forms.Button();
+            this.hienbtn = new System.Windows.Forms.Button();
+            this.usernametxt = new System.Windows.Forms.TextBox();
+            this.passwordtxt = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -74,11 +74,11 @@
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.passwordtxt);
+            this.panel1.Controls.Add(this.usernametxt);
+            this.panel1.Controls.Add(this.hienbtn);
+            this.panel1.Controls.Add(this.dangkybtn);
+            this.panel1.Controls.Add(this.dangnhapbtn);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 31);
@@ -106,46 +106,46 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
             // 
-            // button1
+            // dangnhapbtn
             // 
-            this.button1.Location = new System.Drawing.Point(282, 221);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Đăng Nhập";
-            this.button1.UseVisualStyleBackColor = true;
+            this.dangnhapbtn.Location = new System.Drawing.Point(282, 221);
+            this.dangnhapbtn.Name = "dangnhapbtn";
+            this.dangnhapbtn.Size = new System.Drawing.Size(109, 28);
+            this.dangnhapbtn.TabIndex = 2;
+            this.dangnhapbtn.Text = "Đăng Nhập";
+            this.dangnhapbtn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // dangkybtn
             // 
-            this.button2.Location = new System.Drawing.Point(445, 221);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(109, 28);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Đăng Ký";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dangkybtn.Location = new System.Drawing.Point(445, 221);
+            this.dangkybtn.Name = "dangkybtn";
+            this.dangkybtn.Size = new System.Drawing.Size(109, 28);
+            this.dangkybtn.TabIndex = 3;
+            this.dangkybtn.Text = "Đăng Ký";
+            this.dangkybtn.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // hienbtn
             // 
-            this.button3.Location = new System.Drawing.Point(532, 149);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(109, 28);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Hiện";
-            this.button3.UseVisualStyleBackColor = true;
+            this.hienbtn.Location = new System.Drawing.Point(532, 149);
+            this.hienbtn.Name = "hienbtn";
+            this.hienbtn.Size = new System.Drawing.Size(109, 28);
+            this.hienbtn.TabIndex = 4;
+            this.hienbtn.Text = "Hiện";
+            this.hienbtn.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // usernametxt
             // 
-            this.textBox1.Location = new System.Drawing.Point(315, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 22);
-            this.textBox1.TabIndex = 5;
+            this.usernametxt.Location = new System.Drawing.Point(315, 106);
+            this.usernametxt.Name = "usernametxt";
+            this.usernametxt.Size = new System.Drawing.Size(157, 22);
+            this.usernametxt.TabIndex = 5;
             // 
-            // textBox2
+            // passwordtxt
             // 
-            this.textBox2.Location = new System.Drawing.Point(315, 149);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(157, 22);
-            this.textBox2.TabIndex = 6;
+            this.passwordtxt.Location = new System.Drawing.Point(315, 149);
+            this.passwordtxt.Name = "passwordtxt";
+            this.passwordtxt.Size = new System.Drawing.Size(157, 22);
+            this.passwordtxt.TabIndex = 6;
             // 
             // label3
             // 
@@ -184,11 +184,11 @@
         private System.Windows.Forms.ToolStripMenuItem danhMụcToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox passwordtxt;
+        private System.Windows.Forms.TextBox usernametxt;
+        private System.Windows.Forms.Button hienbtn;
+        private System.Windows.Forms.Button dangkybtn;
+        private System.Windows.Forms.Button dangnhapbtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
     }
